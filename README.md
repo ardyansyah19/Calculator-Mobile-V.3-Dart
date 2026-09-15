@@ -1,4 +1,5 @@
 # Kalkulator App (Flutter-Dart)
+By Ahmad Riko Dyansyah
 
 Aplikasi kalkulator mobile dengan tampilan bertema gelap, display bergaris oranye,
 panel riwayat perhitungan, dan keypad ilmiah bertab — terinspirasi dari layout
