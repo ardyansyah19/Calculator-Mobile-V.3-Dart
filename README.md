@@ -18,7 +18,7 @@ pada gambar yang kamu kirim.
 
 ## Cara Menjalankan di VS Code
 
-1. **Install Flutter SDK** (jika belum ada): https://docs.flutter.dev/get-started/install
+1. **Install Flutter SDK**
 2. Install extension **Flutter** dan **Dart** di VS Code.
 3. Extract folder `calculator_app` ini, lalu buka foldernya di VS Code
    (`File > Open Folder...`).
