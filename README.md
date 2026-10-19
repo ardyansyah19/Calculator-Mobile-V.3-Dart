@@ -56,3 +56,31 @@ Proyek ini hanya berisi `pubspec.yaml` + `lib/`. Folder platform
 (`android/`, `ios/`, dll.) belum di-generate — Flutter akan membuatnya
 otomatis saat kamu menjalankan `flutter create .` di dalam folder ini
 sebelum `flutter pub get` (khususnya jika folder platform belum ada).
+
+## Mengembangkan Lebih Lanjut
+- `calculator_logic.dart` berisi parser rekursif (recursive descent) yang mudah
+  ditambah fungsi baru — cukup tambahkan `case` baru di method `_primary()`.
+- Untuk menambah tombol baru di UI, tambahkan pemanggilan `_key(...)` di
+  `_buildMainKeypad()` / `_buildFunctionKeypad()` pada `main.dart`.
+- Warna tema (oranye, biru, abu gelap) didefinisikan sebagai konstanta statis
+  di awal class `_CalculatorHomeState` — ubah di situ untuk reskin cepat.
+
+## Catatan
+Proyek ini hanya berisi `pubspec.yaml` + `lib/`. Folder platform
+(`android/`, `ios/`, dll.) belum di-generate — Flutter akan membuatnya
+otomatis saat kamu menjalankan `flutter create .` di dalam folder ini
+sebelum `flutter pub get` (khususnya jika folder platform belum ada).
+
+## Mengembangkan Lebih Lanjut
+- `calculator_logic.dart` berisi parser rekursif (recursive descent) yang mudah
+  ditambah fungsi baru — cukup tambahkan `case` baru di method `_primary()`.
+- Untuk menambah tombol baru di UI, tambahkan pemanggilan `_key(...)` di
+  `_buildMainKeypad()` / `_buildFunctionKeypad()` pada `main.dart`.
+- Warna tema (oranye, biru, abu gelap) didefinisikan sebagai konstanta statis
+  di awal class `_CalculatorHomeState` — ubah di situ untuk reskin cepat.
+
+## Catatan
+Proyek ini hanya berisi `pubspec.yaml` + `lib/`. Folder platform
+(`android/`, `ios/`, dll.) belum di-generate — Flutter akan membuatnya
+otomatis saat kamu menjalankan `flutter create .` di dalam folder ini
+sebelum `flutter pub get` (khususnya jika folder platform belum ada).
