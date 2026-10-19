@@ -31,6 +31,22 @@ class HistoryEntry {
   HistoryEntry(this.expression, this.result);
 }
 
+class HistoryEntry {
+  final String expression;
+  final String result;
+  HistoryEntry(this.expression, this.result);
+}
+class HistoryEntry {
+  final String expression;
+  final String result;
+  HistoryEntry(this.expression, this.result);
+}
+
+class HistoryEntry {
+  final String expression;
+  final String result;
+  HistoryEntry(this.expression, this.result);
+}
 class CalculatorHome extends StatefulWidget {
   const CalculatorHome({super.key});
 
