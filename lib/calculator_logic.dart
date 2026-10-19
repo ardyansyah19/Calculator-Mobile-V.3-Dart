@@ -15,6 +15,20 @@ class _Token {
   _Token(this.type, this.text, [this.value]);
 }
 
+class _Token {
+  final String type; // num, op, ident, lparen, rparen, end
+  final String text;
+  final double? value;
+  _Token(this.type, this.text, [this.value]);
+}
+
+class _Token {
+  final String type; // num, op, ident, lparen, rparen, end
+  final String text;
+  final double? value;
+  _Token(this.type, this.text, [this.value]);
+}
+
 class _Lexer {
   final String src;
   int pos = 0;
